@@ -229,7 +229,8 @@ body {
 .pill.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 
 .slider {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
   width: 160px; height: 4px;
   border-radius: 2px;
   background: var(--border2);
